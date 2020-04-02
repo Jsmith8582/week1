@@ -10,7 +10,7 @@ public class App {
 		double mondaymoney = 10.00;
 		double fridaymoney = 75.99;
 		int childfriends = 10;
-		double adultfriends = 175;
+		int adultfriends = 175;
 		int childage = 7;
 		int currentage = 33;
 		String firstname = "Joshua";
@@ -33,11 +33,14 @@ public class App {
 		
 				
 		System.out.println("My favorite food is " + FoodStaple);
+		
 		System.out.println("The amount of money in my wallet always seems to be " + mondaymoney + " dollars.");
 		
+		System.out.println("I had " + childfriends + " as a child. Over the years I have added " + (adultfriends - childfriends) + " to my friends list.");
 		
+		System.out.println("My legal name is " + FullName + ". But I prefer to go by " + nickname + " " + lastname + '.');
 		
-		
+		System.out.println("I went to the store with my cash, which is only $" + fridaymoney + " to buy some chocolate. I spent $" + (chocolate * 4) + ( " and had a remainder of $") + (fridaymoney - (chocolate * 4)) + "after my chocolate splurge." ); 
 		
 	}
 
