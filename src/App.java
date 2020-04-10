@@ -40,7 +40,7 @@ public class App {
 		
 		System.out.println("My legal name is " + FullName + ". But I prefer to go by " + nickname + " " + lastname + '.');
 		
-		System.out.println("I went to the store with my cash, which is only $" + fridaymoney + " to buy some chocolate. I spent $" + (chocolate * 4) + ( " and had a remainder of $") + (fridaymoney - (chocolate * 4)) + "after my chocolate splurge." ); 
+		System.out.println("I went to the store with my cash, which is only $" + fridaymoney + " to buy some chocolate. I spent $" + (chocolate * 4) + ( " and had a remainder of $") + (fridaymoney - (chocolate * 4)) + " after my chocolate splurge." ); 
 		
 	}
 
